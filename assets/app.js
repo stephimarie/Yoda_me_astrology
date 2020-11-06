@@ -1,9 +1,10 @@
 
 
 let begUrl = "https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=";
-let userInput = document.querySelectorAll(".sign-button");
+let userInput = $("form");
 
-userInput.on("click", function() {
+userInput.on("submit", function(e) {
+    e.preventDefault();
     let userSign = userInput.attr("id");
     console.log(userInput.attr("id"));
     console.log("sign: " + userSign);
