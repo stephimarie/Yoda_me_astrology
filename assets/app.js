@@ -1,13 +1,11 @@
-
-
 let begUrl = "https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=";
 let userInput = $("form");
 
 userInput.on("submit", function(e) {
     e.preventDefault();
-    let userSign = userInput.attr("id");
-    console.log(userInput.attr("id"));
-    console.log("sign: " + userSign);
+
+    let userSign = e.target.querySelector("input").getAttribute("value");
+    console.log(userSign);
 
     let horoscopeUrl = begUrl + userSign;
 
