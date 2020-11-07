@@ -1,3 +1,9 @@
 .navbar{
     background-color: black;
+    height: 100px;
+    border: 2px thin gray;
+}
+
+.hero{
+    background-color: rgb(85, 84, 69);
 }
