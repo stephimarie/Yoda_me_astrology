@@ -1,10 +1,4 @@
 
-.navbar{
-    background-color: black;
-    border: 1px solid black;
-    height: 100px;
-}
-
 .hero{
     background-color: black;
 }
@@ -13,3 +7,16 @@
     border: 1px solid #9d9d9d;
     margin-top: 10px;
 }
+nav{
+    height: 100px;
+    background-color: black;
+}
+
+.nav-title{
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffc367;
+}
+
