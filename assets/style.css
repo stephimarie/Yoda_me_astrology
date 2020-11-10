@@ -2,6 +2,7 @@
 .hero{
     background-color: black;
 }
+
 nav{
     height: 100px;
     background-color: black;
@@ -30,5 +31,8 @@ nav{
 input{
     background-color: black;
     color: #ffc367;
+}
 
+.column {
+    text-align: center;
 }
