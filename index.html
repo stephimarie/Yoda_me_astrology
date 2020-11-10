@@ -7,82 +7,120 @@
     <!--Bulma CSS link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
-    <!--Personal CSS link-->
-    <link rel="stylesheet" href="./assets/style.css">
+     <!--Materialize CSS link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
     <!--AJAX jquery script link-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Personal CSS link-->
+    <link rel="stylesheet" href="./assets/style.css">
+
 
     <title>Yoda Me Astrology</title>
 </head>
 <body>
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <nav class="navbar-brand">
-          <a class="navbar-item" href="#">
-            <img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="100" height="110">Yoda Me Astrology
-          </a>
-    </nav>
-    </nav>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center"><img src="./icons/YodaDigitalCutFile/Yoda Digital Cut File.png" alt="icons" width="200px" height="200px"></a>
+    </div>
+
+    <div class="nav-content center-align">
+      <span class="nav-title">Yoda-Me-Astrology</span>
+    </div>
+  </nav>
 
     <section class="hero is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container">
           <p class="title">
-            Fullheight hero with navbar
+            Choose Your Horoscope Sign:
           </p>
-        </div>
-      </div>
+          <div class="columns">
+            <div class="column">
+              <form class="border">
+                <img src="./icons/aquarius 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Aquarius" />
+            </form>
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/pisces 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Pisces" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/aries 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Aries" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/taurus 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Taurus" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/gemini 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Gemini" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/cancer 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Cancer" />
+            </form >
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <form class="border">
+                <img src="./icons/leo 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Leo" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/virgo 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Virgo" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/libra 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Libra" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/scorpio 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Scorpio" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border ">
+                <img src="./icons/sagittarius 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Sagittarius" />
+            </form >
+            </div>
+            <div class="column">
+              <form class="border">
+                <img src="./icons/capricorn 2.png" alt="icons">
+                <input class="sign-input" type="submit" value="Capricorn" />
+            </form >
+            </div>
+          </div>
+
     </section>
 
-<div class="container">
-  <div class="row">
-    <div class="col-3">
-    <form>
-        <input class="sign-input" type="submit" value="aquarius" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="pisces" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="aries" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="taurus" />
-    </form>
-  </div>
-  </div>
-    <div class="row">
-    <form>
-        <input class="sign-input" type="submit" value="gemini" />
-    </form>   
-    <form>
-        <input class="sign-input" type="submit" value="cancer" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="leo" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="virgo" />
-    </form>
-  </div>
-  <div class="row">
-    <form>
-        <input class="sign-input" type="submit" value="libra" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="scorpio" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="sagittarius" />
-    </form>
-    <form>
-        <input class="sign-input" type="submit" value="capricorn" />
-    </form>
-  </div>
-</div>
 
-    <p id="words"></p>
 
     <!--personal javascript link-->
     <script src="./assets/app.js"></script>
