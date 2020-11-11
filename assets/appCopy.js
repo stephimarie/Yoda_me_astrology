@@ -1,13 +1,16 @@
 $(document).ready(function () {
     //url info for horoscope api call
     let begUrl = "https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=";
-    let userInput = $("form");
+    const apiKey = "0ad9d781cemshb9f1fc3ee82194cp11e268jsncdcd563df8b3";
+    
+    let img = $(".img")
+
 
     //submit function to call api when input is clicked
-    userInput.on("submit", function(e) {
-        e.preventDefault();
+   img.on("click", function() {
 
-        let userSign = e.target.querySelector("input").getAttribute("value");
+   
+        let userSign = document.querySelector("img").getAttribute("value");
         console.log(userSign);
 
         let horoscopeUrl = begUrl + userSign;
