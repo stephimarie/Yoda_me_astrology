@@ -89,11 +89,15 @@ p{
     display: inline-block;
     font-weight: bold;
 }
-a, h4, h2 {
+a, h4, h2, p {
      color: #ffc367;
  }
  .footer {
      background-color: black;
-     color: gold;
+     color: #ffc367;
      padding-top: 5px;
  }
+
+#footer {
+    padding-top: 100px;
+}
