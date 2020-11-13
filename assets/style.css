@@ -50,7 +50,7 @@ p{
     cursor:pointer;
     display:none;
     height:100%;
-    position:fixed;
+    position: absolute;
     text-align:center;
     top:0;
     width:100%;
@@ -62,13 +62,14 @@ p{
     vertical-align:middle;
 }
 .hover_bkgr_fricc > div {
-    background-color: #fff;
+    background-color: black;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
     height: auto;
     max-width: 551px;
     min-height: 100px;
     vertical-align: middle;
+    text-align: center;
     width: 60%;
     position: relative;
     border-radius: 8px;
@@ -102,7 +103,7 @@ p{
     font-weight: bold;
 }
 
-a {
+a, h4, h2 {
      color: #ffc367;
  }
 
@@ -111,3 +112,4 @@ a {
      color: gold;
      padding-top: 5px;
  }
+
