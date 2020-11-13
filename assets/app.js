@@ -117,7 +117,6 @@ $(document).ready(function () {
     //popup X button, closing button
     $('.popupCloseButton').click(function () {
         $('.hover_bkgr_fricc').hide();
-        // $("h4").text("");
     });
 
 });
