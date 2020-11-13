@@ -62,7 +62,7 @@ p{
     vertical-align:middle;
 }
 .hover_bkgr_fricc > div {
-    background-color: #fff;
+    background-color: black;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
     height: auto;
@@ -103,6 +103,6 @@ p{
     font-weight: bold;
 }
 
-a {
+a, h4, h2 {
      color: #ffc367;
  }
