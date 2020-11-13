@@ -109,4 +109,13 @@ p{
 
 a, h4, h2 {
      color: #ffc367;
+
+ }
+
+ }
+
+ .footer {
+     background-color: black;
+     color: gold;
+     padding-top: 5px;
  }
