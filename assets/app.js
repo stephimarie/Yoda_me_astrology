@@ -113,6 +113,53 @@ $(document).ready(function () {
         $('.cancerHover').hide();
     });
 
+    //leo popup functions
+    $(".leoTrig").click(function () {
+        $('.leoHover').show();
+    });
+    $('.leoHover').click(function () {
+        $('.leoHover').hide();
+    });
+
+    //virgo popup functions
+    $(".virgoTrig").click(function () {
+        $('.virgoHover').show();
+    });
+    $('.virgoHover').click(function () {
+        $('.virgoHover').hide();
+    });
+
+    //libra popup functions
+    $(".libraTrig").click(function () {
+        $('.libraHover').show();
+    });
+    $('.libraHover').click(function () {
+        $('.libraHover').hide();
+    });
+
+    //scorpio popup functions
+    $(".scorpioTrig").click(function () {
+        $('.scorpioHover').show();
+    });
+    $('.scorpioHover').click(function () {
+        $('.scorpioHover').hide();
+    });
+
+    //sagittarius popup functions
+    $(".sagittariusTrig").click(function () {
+        $('.sagittariusHover').show();
+    });
+    $('.sagittariusHover').click(function () {
+        $('.sagittariusHover').hide();
+    });
+
+    //capricorn popup functions
+    $(".capricornTrig").click(function () {
+        $('.capricornHover').show();
+    });
+    $('.capricornHover').click(function () {
+        $('.capricornHover').hide();
+    });
 
     //popup X button, closing button
     $('.popupCloseButton').click(function () {
@@ -120,5 +167,3 @@ $(document).ready(function () {
     });
 
 });
-
-
