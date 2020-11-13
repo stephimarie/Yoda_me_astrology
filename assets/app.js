@@ -15,6 +15,9 @@ $(document).ready(function () {
         let userSign = $(this).attr("id");
         console.log("user selected: " + userSign);
 
+        //clears previous text data from horoscope
+        $("h4").text("");
+
         //axios call to aztro horoscop api
         axios({
             method: "POST",
@@ -33,28 +36,29 @@ $(document).ready(function () {
             let horoText = response.data.description;
 
             // axios call to yoda translate
-            // axios({
-            //     method: "POST",
-            //     url: "https://yodish.p.rapidapi.com/yoda.json",
-            //     headers: {
-            //         "content-type": "application/x-www-form-urlencoded",
-            //         "x-rapidapi-host": "yodish.p.rapidapi.com",
-            //         "x-rapidapi-key": "0ad9d781cemshb9f1fc3ee82194cp11e268jsncdcd563df8b3",
-            //         useQueryString: true,
-            //     },
-            //     params: {
-            //         text: horoText,
-            //     },
-            //     data: {},
-            // })
-            //     .then((response) => {
-            //         let yodaTranslate = response.data.contents.translated
-            //         console.log("Yoda says: " + yodaTranslate);
-            //         $("h4").text(yodaTranslate);
-            //     })
-            //     .catch((error) => {
-            //         console.log("yoda translate error: " + error);
-            //     });
+            axios({
+                method: "POST",
+                url: "https://yodish.p.rapidapi.com/yoda.json",
+                headers: {
+                    "content-type": "application/x-www-form-urlencoded",
+                    "x-rapidapi-host": "yodish.p.rapidapi.com",
+                    "x-rapidapi-key": "0ad9d781cemshb9f1fc3ee82194cp11e268jsncdcd563df8b3",
+                    useQueryString: true,
+                },
+                params: {
+                    text: horoText,
+                },
+                data: {},
+            })
+                .then((response) => {
+                    let yodaTranslate = response.data.contents.translated
+                    console.log("Yoda says: " + yodaTranslate);
+
+                    $("h4").text(yodaTranslate);
+                })
+                .catch((error) => {
+                    console.log("yoda translate error: " + error);
+                });
 
         }).catch((err) => {
             console.log("aztro horoscope error: " + err);
@@ -68,7 +72,6 @@ $(document).ready(function () {
     $('.aquaHover').click(function () {
         $('.aquaHover').hide();
     });
-
 
     //pisces popup functions
     $(".piscesTrig").click(function () {
@@ -94,8 +97,27 @@ $(document).ready(function () {
         $('.taurusHover').hide();
     });
 
+    //gemini popup functions
+    $(".geminiTrig").click(function () {
+        $('.geminiHover').show();
+    });
+    $('.geminiHover').click(function () {
+        $('.geminiHover').hide();
+    });
+
+    //cancer popup functions
+    $(".cancerTrig").click(function () {
+        $('.cancerHover').show();
+    });
+    $('.cancerHover').click(function () {
+        $('.cancerHover').hide();
+    });
+
+
+    //popup X button, closing button
     $('.popupCloseButton').click(function () {
         $('.hover_bkgr_fricc').hide();
+        // $("h4").text("");
     });
 
 });
