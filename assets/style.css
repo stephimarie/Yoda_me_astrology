@@ -2,7 +2,6 @@
     background-image: url(../icons/Pin\ on\ Desktop\ wallpapers.jpg);
     height: 100vh;
 }
-
 .nav-title{
     font-family: 'Monoton', cursive;
     font-size: 30px;
@@ -10,7 +9,6 @@
     color: #ffc367;
     padding: 40px;
 }
-
 .title {
     text-align: center;
     color: #ffc367;
@@ -19,27 +17,20 @@
    word-spacing: 10px;
    padding-top: 25px;
 }
-
 .border{
     border: 1px solid #9d9d9d;
 }
-
 .sign-input{
     background-color: black;
     color: #ffc367;
-    
 }
-
 .column {
     text-align: center;
-
 }
-
 p{
     padding-bottom: 20px;
     font-size: 18px;
 }
-
 /* Popup box BEGIN */
 .hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
@@ -52,13 +43,11 @@ p{
     width:100%;
     z-index:10000;
 }
-
 .hover_bkgr_fricc .helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-
 .hover_bkgr_fricc > div {
     background-color: black;
     box-shadow: 10px 10px 60px #555;
@@ -73,7 +62,6 @@ p{
     border-radius: 8px;
     padding: 15px 5%;
 }
-
 .popupCloseButton {
     background-color: #fff;
     border: 3px solid #999;
@@ -91,11 +79,9 @@ p{
     height: 30px;
     text-align: center;
 }
-
 .popupCloseButton:hover {
     background-color: #ccc;
 }
-
 .trigger_popup_fricc {
     cursor: pointer;
     font-size: 20px;
@@ -103,13 +89,9 @@ p{
     display: inline-block;
     font-weight: bold;
 }
-
 a, h4, h2 {
      color: #ffc367;
-
  }
-
-
  .footer {
      background-color: black;
      color: gold;
