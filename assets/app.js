@@ -23,6 +23,7 @@ $(document).ready(function () {
     //put localstorage to page in text
     $("#last-select").text("Last selected Sign: " + lastselectSign);
 
+    //if last selected sign has no local storage it will hide the text on the website page
     if (lastselectSign === null) {
         $("#last-select").attr("class", "hide");
     };
