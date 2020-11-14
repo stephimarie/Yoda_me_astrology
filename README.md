@@ -1,71 +1,37 @@
 # Yoda Me Astrology
 
-## Description 
+## Description:
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
+Yoda-Me-Astrology was developed for the purpose of entertainment. What better way to read your daily horoscope than from the Grand-Master Jedi himself? When the user clicks on their astrological sign, a pop up window will deploy with generated text processed by the yoda translator, giving you a unique horoscope that you can check daily!
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+Our focus was to offer a fun way to get your daily horoscope that would be quick, simple and user friendly. We especially wanted to reach a broad audience and be age inclusive and accessible. We thought Yoda was a character that was easily identifiable, and would bring a large user base.
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+## Project Presentation:
+* [Presentation](https://docs.google.com/presentation/d/1ZBkreorxnVGgSbucgns-47vkGchvur9heMYg7zuL1OE/edit?ts=5faf70d1#slide=id.gaafa7bf09e_2_764)
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
+## Video Demo:
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+## BuiltWith:
 
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+* HTML
+* CSS
+* Bulma
+* Materialize
+* jQuery
+*  APIs
 
+## Resource preferences:
+* [RapidAPI](https://rapidapi.com/)
+* [Bulma](https://bulma.io/)
+* [Materialize](https://materializecss.com/)
+* [Popup Research](https://html-online.com/articles/simple-popup-box/)
 
-## Table of Contents (Optional)
+## Contributors:
+* [Stephanie McCandless](https://github.com/stephimarie )
+* [Nhi Danis](https://github.com/NhiDanis)
+* [Max Higa](https://github.com/maxx-808)
+* [Michael Burkett](https://github.com/cadeburkett)
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-
-## Usage 
-
-Provide instructions and examples for use. Include screenshots as needed. 
-
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
-
-## License
-
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
+## Links
+[Github Page](
 
