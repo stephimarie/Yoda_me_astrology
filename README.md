@@ -35,5 +35,5 @@ Our focus was to offer a fun way to get your daily horoscope that would be quick
 * [Michael Burkett](https://github.com/cadeburkett)
 
 ## Links
-[Github Page](
+[Github Page](https://stephimarie.github.io/Yoda_me_astrology/.)
 
