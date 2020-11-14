@@ -1,12 +1,27 @@
 $(document).ready(function () {
 
-    //example of image click function to get id or value from a bigger thing then input to push to api calls
-    // $("a").on("click", function () {
-    //     console.log($(this).attr("id"))
-    // })
+    //recording date for local storage
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    today = mm + '/' + dd + '/' + yyyy;
+
+    console.log("today's date: " + today);
 
     //variable to set up submit function based on horoscope signs
     let userInput = $("a");
+
+    //local storage hold for previous sign
+    let lastselectSign = localStorage.getItem("last selected sign: ");
+    console.log("last selected sign brought back: " + lastselectSign);
+
+    var lastHoroText = localStorage.getItem("text for last horoscope text");
+    console.log("last selected sign with date of horoscope and the horoscope: " + lastHoroText);
+
+    //put localstorage to page in text
+    $("#last-select").text("Last selected Sign: " + lastselectSign);
 
     //submit function to call api when input is clicked
     userInput.on("click", function () {
@@ -14,6 +29,9 @@ $(document).ready(function () {
         //variable for user sign input from buttons
         let userSign = $(this).attr("id");
         console.log("user selected: " + userSign);
+
+        //sending user sign to localstorage
+        localStorage.setItem("last selected sign: ", userSign);
 
         //clears previous text data from horoscope
         $("h4").text("");
@@ -49,16 +67,15 @@ $(document).ready(function () {
                     text: horoText,
                 },
                 data: {},
-            })
-                .then((response) => {
-                    let yodaTranslate = response.data.contents.translated
-                    console.log("Yoda says: " + yodaTranslate);
+            }).then((response) => {
+                let yodaTranslate = response.data.contents.translated
+                console.log("Yoda says: " + yodaTranslate);
+                localStorage.setItem("text for last horoscope text", userSign + " | " + today + " | " + yodaTranslate);
 
-                    $("h4").text(yodaTranslate);
-                })
-                .catch((error) => {
-                    console.log("yoda translate error: " + error);
-                });
+                $("h4").text(yodaTranslate);
+            }).catch((error) => {
+                console.log("yoda translate error: " + error);
+            });
 
         }).catch((err) => {
             console.log("aztro horoscope error: " + err);
