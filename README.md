@@ -9,7 +9,9 @@ Our focus was to offer a fun way to get your daily horoscope that would be quick
 ## Project Presentation:
 * [Presentation](https://docs.google.com/presentation/d/1ZBkreorxnVGgSbucgns-47vkGchvur9heMYg7zuL1OE/edit?ts=5faf70d1#slide=id.gaafa7bf09e_2_764)
 
-## Video Demo:
+## Screenshot of Website:
+<img width="1128" alt="screen_shot_2020-11-13_at_9 22 18_pm" src="https://user-images.githubusercontent.com/69176601/99157653-f85c7900-266e-11eb-88f1-b274afbb42d8.png">
+
 
 ## BuiltWith:
 
