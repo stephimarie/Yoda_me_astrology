@@ -1,6 +1,6 @@
 .hero{
     background-image: url(../icons/Pin\ on\ Desktop\ wallpapers.jpg);
-    height: 100vh;
+    height: 100%;
 }
 .nav-title{
     font-family: 'Monoton', cursive;
@@ -90,14 +90,15 @@ p{
     font-weight: bold;
 }
 a, h4, h2, p {
-     color: #ffc367;
- }
- .footer {
-     background-color: black;
-     color: #ffc367;
-     padding-top: 5px;
- }
+    color: #ffc367;
+}
+.footer {
+    background-color: black;
+    color: #ffc367;
+    position: sticky;
+    padding: 0;
+}
 
 #footer {
-    padding-top: 100px;
+    padding-top: 20px;
 }
