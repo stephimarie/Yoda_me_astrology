@@ -23,6 +23,10 @@ $(document).ready(function () {
     //put localstorage to page in text
     $("#last-select").text("Last selected Sign: " + lastselectSign);
 
+    if (lastselectSign === null) {
+        $("#last-select").attr("class", "hide");
+    };
+
     //submit function to call api when input is clicked
     userInput.on("click", function () {
 
