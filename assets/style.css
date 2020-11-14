@@ -1,49 +1,36 @@
-
 .hero{
-    background-color: black;
+    background-image: url(../icons/Pin\ on\ Desktop\ wallpapers.jpg);
+    height: 100%;
 }
-
-nav{
-    height: 100px;
-    background-color: black;
-}
-
 .nav-title{
     font-family: 'Monoton', cursive;
-    font-size: 25px;
-    padding-top: 10px;
+    font-size: 30px;
     text-align: center;
     color: #ffc367;
+    padding: 40px;
 }
-
 .title {
     text-align: center;
     color: #ffc367;
     font-size: 30px;
     font-family: 'Monoton', cursive;
    word-spacing: 10px;
+   padding-top: 25px;
 }
-
 .border{
     border: 1px solid #9d9d9d;
 }
-
 .sign-input{
     background-color: black;
     color: #ffc367;
-    
 }
-
 .column {
     text-align: center;
-
 }
-
 p{
     padding-bottom: 20px;
     font-size: 18px;
 }
-
 /* Popup box BEGIN */
 .hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
@@ -102,14 +89,16 @@ p{
     display: inline-block;
     font-weight: bold;
 }
+a, h4, h2, p {
+    color: #ffc367;
+}
+.footer {
+    background-color: black;
+    color: #ffc367;
+    position: sticky;
+    padding: 0;
+}
 
-a, h4, h2 {
-     color: #ffc367;
- }
-
- .footer {
-     background-color: black;
-     color: gold;
-     padding-top: 5px;
- }
-
+#footer {
+    padding-top: 20px;
+}
