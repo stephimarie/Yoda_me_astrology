@@ -1,57 +1,37 @@
-# Unit 7: Project 1
+# Yoda Me Astrology
 
-## Overview
-Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build web application from scratch. With your team, you will conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests. Because you will be working collaboratively, you will learn agile development methodologies and implement feature and bug fixes using the git branch workflow and pull requests.
+## Description:
 
-## Key Topics
+Yoda-Me-Astrology was developed for the purpose of entertainment. What better way to read your daily horoscope than from the Grand-Master Jedi himself? When the user clicks on their astrological sign, a pop up window will deploy with generated text processed by the yoda translator, giving you a unique horoscope that you can check daily!
 
-The following topics will be covered in this unit:
+Our focus was to offer a fun way to get your daily horoscope that would be quick, simple and user friendly. We especially wanted to reach a broad audience and be age inclusive and accessible. We thought Yoda was a character that was easily identifiable, and would bring a large user base.
 
-  * Server-side APIs
+## Project Presentation:
+* [Presentation](https://docs.google.com/presentation/d/1ZBkreorxnVGgSbucgns-47vkGchvur9heMYg7zuL1OE/edit?ts=5faf70d1#slide=id.gaafa7bf09e_2_764)
 
-  * Agile software development
+## Video Demo:
 
-## Learning Objectives
+## BuiltWith:
 
-You will be employer-ready if you are able to:
-  
-  * Speak technically about a feature you implemented in your project
+* HTML
+* CSS
+* Bulma
+* Materialize
+* jQuery
+*  APIs
 
-  * Explain and execute git branching workflow in a collaborative project
+## Resource preferences:
+* [RapidAPI](https://rapidapi.com/)
+* [Bulma](https://bulma.io/)
+* [Materialize](https://materializecss.com/)
+* [Popup Research](https://html-online.com/articles/simple-popup-box/)
 
-  * Resolve merge conflicts
+## Contributors:
+* [Stephanie McCandless](https://github.com/stephimarie )
+* [Nhi Danis](https://github.com/NhiDanis)
+* [Max Higa](https://github.com/maxx-808)
+* [Michael Burkett](https://github.com/cadeburkett)
 
-  * Explain agile software development
+## Links
+[Github Page](
 
-  * Design, build, and deploy a client-side web application using GitHub Pages
-
-  * Prepare a professional presentation and repository README for your project
-
-## Technical Interview Preparation
-
-You will be employer-competitive if you are able to solve the following algorithms.
-
-### Algorithms
-
-Practicing algorithm-based interview questions is one of the best ways to prepare for interviews. 
-
-  * [01-swap-case](./03-Algorithms/01-swap-case)
-
-  * [02-longest-word](./03-Algorithms/02-longest-word)
-
-  * [03-acronym-builder](./03-Algorithms/03-acronym-builder)
-
-  * [04-reverse-words](./03-Algorithms/04-reverse-words)
-
-## Resources
-
-Here are some additional resources to help solidify the topics covered in this unit:
-
-  * [📖 Agile Methodology](https://en.wikipedia.org/wiki/Agile_software_development)
-
-  * [📖 Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
-  
-  * [📖 Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
-
----
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
