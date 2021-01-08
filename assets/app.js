@@ -47,7 +47,7 @@ $(document).ready(function () {
             url: "https://sameer-kumar-aztro-v1.p.rapidapi.com/",
             params: { day: 'today', sign: userSign },
             headers: {
-                "x-rapidapi-key": "0ad9d781cemshb9f1fc3ee82194cp11e268jsncdcd563df8b3",
+                "x-rapidapi-key": "enter your api key here",
                 "x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
                 useQueryString: true,
             },
@@ -65,7 +65,7 @@ $(document).ready(function () {
                 headers: {
                     "content-type": "application/x-www-form-urlencoded",
                     "x-rapidapi-host": "yodish.p.rapidapi.com",
-                    "x-rapidapi-key": "0ad9d781cemshb9f1fc3ee82194cp11e268jsncdcd563df8b3",
+                    "x-rapidapi-key": "enter your api key here",
                     useQueryString: true,
                 },
                 params: {
