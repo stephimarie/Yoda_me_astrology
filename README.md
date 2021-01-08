@@ -6,6 +6,8 @@ Yoda-Me-Astrology was developed for the purpose of entertainment. What better wa
 
 Our focus was to offer a fun way to get your daily horoscope that would be quick, simple and user friendly. We especially wanted to reach a broad audience and be age inclusive and accessible. We thought Yoda was a character that was easily identifiable, and would bring a large user base.
 
+To run this app , you must log into rapid api and get your key and subscribe to the two api sources we used, the api keys previously on this project are no longer available due to grading being completed. yodish (yoda translator) and aztro (astrology for the day) api sources are used. links in the js file. once you have your key, input it in lines 50 and 68 in the quotes that say "enter api key here"
+
 ## Project Presentation:
 * [Presentation](https://docs.google.com/presentation/d/1ZBkreorxnVGgSbucgns-47vkGchvur9heMYg7zuL1OE/edit?ts=5faf70d1#slide=id.gaafa7bf09e_2_764)
 
